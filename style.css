@@ -1,0 +1,123 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+
+header{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cart-Container{
+    width: 80%;
+    height: 95%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+}
+
+.cards {
+    padding-bottom: 50px;
+}
+
+
+.Header{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Heading{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #2F3841;
+}
+.Action{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
+}
+
+.fa-home {
+    padding-left: 20px;
+    color: #ff3300fd;
+}
+.fa-grin-wink {
+    padding-left: 50px;
+    color: #ee680fe1;
+}
+.fa-cart-arrow-down {
+    padding-left: 45px;
+    color: #ee680fe1
+}
+.nav-link.shopping-cart {
+    cursor: pointer;
+}
+
+
+/* section card */
+
+.card {
+    display: flex;
+}
+
+.card img {
+    width: 200px;
+}
+
+.cards {
+    margin: 0% 20%;
+}
+
+.unitt-price {
+    margin-left: 100px;
+}
+
+i {
+    cursor: pointer;
+}
+.card-title {
+    font-weight: bold;
+}
+.card-text {
+    color: gray;
+}
+
+.fa-plus {
+    padding: 2%;
+}
+
+.fa-minus {
+    padding: 2%;
+}
+
+
+.fa-trash-alt {
+    padding: 3%;
+}
+
+.fa-heart {
+    padding-left: 2%;
+}
+
+
+/* Total price  */
+
+.total-price-container {
+    text-align:right;
+    margin-bottom: 10px;
+}
+
+
+

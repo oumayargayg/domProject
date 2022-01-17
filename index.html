@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <!--HEAD-->
+    <head>
+        <meta charset="utf-8">
+        <title>DOM checkpoint</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/529b8a145f.js" crossorigin="anonymous"></script>
+    </head>
+        <!--BODY-->
+        <body>
+        <!--NAV-Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shop with me</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <i class="fas fa-home"></i>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New collection</a>
+                    <i class="fas fa-grin-wink"></i>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link shopping-cart">Shopping Cart</a>
+                    <i class="fas fa-cart-arrow-down"></i>
+                </li>
+                </ul>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+
+    <!--HEADER-Content-->
+        <header>
+            <div class="Cart-Container">
+                <div class="Header">
+                    <h3 class="Heading">Shopping Cart:</h3>
+                    <h5 class="Action">Remove all</h5>
+                </div>
+        <!--MAIN-->
+        <main>
+        <section class="cards">
+            <!--Card1-->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src="https://img.joomcdn.net/ac769eeda6ea5fb89a371d36e992aa6d9497e81b_original.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title"> Oversized Hoodie</h5>
+                        <p class="card-text">Graphic Japanese Streetwear Hoodie Pocket Fleece Warm Oversized Sweatshirt Print Hooded Hoodie Sweatshirt Harajuku Streetwear Pullover 2020.</p>
+                        <i class="fas fa-plus"></i>
+                        <span class="qute">0</span>
+                        <i class="fas fa-minus"></i>
+                        <i class="far fa-trash-alt"></i>
+                        <i class="far fa-heart"></i>
+                            <span class="unitt-price">30</span>
+                            <span>$</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                <!-- card 2 -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src="https://i.pinimg.com/564x/52/09/f5/5209f56e8d034c2f0bea5b721f7ccf21.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Flannel Skirt</h5>
+                        <p class="card-text">Cute Harajuku Sweet Style Grid Pattern  Decorated HIgh Waist Skirt Costume Outfit .</p>
+                        <i class="fas fa-plus"></i>
+                        <span class="qute">0</span>
+                        <i class="fas fa-minus"></i>
+                        <i class="far fa-trash-alt"></i>
+                        <i class="far fa-heart"></i>
+                            <span class="unitt-price">150</span>
+                            <span>$</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src="https://s3-eu-west-1.amazonaws.com/images.linnlive.com/3f25aa9d1567d021dac96f3dcb03559f/28467f3e-f9d6-47ff-b31b-8e8eed799048.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Gothic Sandal</h5>
+                        <p class="card-text">Thick sole Thick Straps Gothic summer sandal Comfort Buckle New .</p>
+                        <i class="fas fa-plus"></i>
+                        <span class="qute">0</span>
+                        <i class="fas fa-minus"></i>
+                        <i class="far fa-trash-alt"></i>
+                        <i class="far fa-heart"></i>
+                            <span class="unitt-price">93</span>
+                            <span>$</span>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Total price -->
+    <div class="total-price-container">
+        <span>Total Price :</span>
+        <span id="total-price"> 0 </span>
+        <span>$</span>
+    </div>
+        </section>
+    </main>
+    
+            </div>
+            
+        </header>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        
+        <script src="./main.js"></script>
+    </body>
+</html>
